@@ -1,0 +1,32 @@
+{
+<<<<<<< HEAD
+  "name": "rio-boat-show-front-end",
+  "description": "Frontend - Sistema de cadastro para o Ventura Rio Boat Show",
+=======
+  "name": "rio-boat-show-ventura-marine",
+  "description": "Frontend Rio Boat Show - Ventura Marine",
+>>>>>>> Commit admin functions
+  "main": "",
+  "authors": [
+    "Deepak Vashist <deepak@deepak.com.br>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+<<<<<<< HEAD
+  "homepage": "https://github.com/betonico/rioboatshow",
+=======
+  "homepage": "",
+>>>>>>> Commit admin functions
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "resources/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery.maskedinput": "^1.4.1"
+  }
+}

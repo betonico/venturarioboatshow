@@ -1,0 +1,242 @@
+/* Website Config. */
+*, *:before, *:after {
+    font-family: 'Poiret One', cursive !important;
+}
+
+body {
+<<<<<<< HEAD
+    background: url('http://localhost:8000/build/images/backgrounds/bg_geral.png') no-repeat center center fixed;
+=======
+    background: url('/../build/images/backgrounds/bg_geral.png') no-repeat center center fixed;
+>>>>>>> Commit admin functions
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+input:focus {
+    outline: none;
+}
+
+select:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: #000;
+    font-size: 1.2em;
+}
+
+:-moz-placeholder {
+    color: #000;
+    font-size: 1.2em;
+}
+
+::-moz-placeholder {
+    color: #000;
+    font-size: 1.2em;
+}
+
+:-ms-input-placeholder {
+    color: #000;
+    font-size: 1.2em;
+}
+
+.padding_zero {
+    padding: 0;
+}
+
+/* Header */
+.header {
+    margin-top: 60px;
+}
+
+.header_description h1 {
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    word-spacing: -4px;
+    font-size: 4em;
+    font-weight: 700;
+    color: #1B3F53;
+    margin-top: 70px;
+}
+
+.logo {
+    margin: auto;
+}
+
+/* Form Content */
+.form_section {
+    margin-top: 50px;
+}
+
+.form_section h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: 300;
+    color: #1B3F53;
+    margin-bottom: 40px;
+}
+
+.form_section input {
+    width: 100%;
+    height: 37px;
+    border: none;
+    text-align: center;
+    font-size: 1.2em !important;
+    color: #000 !important;
+    margin-bottom: 10px;
+<<<<<<< HEAD
+    background: url('http://localhost:8000/build/images/backgrounds/bg_input.png');
+=======
+    background: url('/../build/images/backgrounds/bg_input.png');
+>>>>>>> Commit admin functions
+}
+
+.input_quest {
+    display: none;
+}
+
+.select_quest {
+    font-size: 1.6em;
+}
+
+.select_quest input[type="text"] {
+    width: 75%;
+    float: right;
+}
+
+.form_section input[type="radio"] {
+    width: auto;
+    height: auto;
+}
+
+.select_quest_form {
+    padding: 0;
+    min-height: 50px;
+}
+
+.select_quest_form p {
+    color: #000;
+}
+
+.estados {
+    width: 97%;
+    height: 37px;
+    border: none;
+    float: right;
+    text-align-last: center;
+    font-size: 1.2em;
+    color: #000;
+<<<<<<< HEAD
+    background: url('http://localhost:8000/build/images/backgrounds/bg_input.png');
+=======
+    background: url('/../build/images/backgrounds/bg_input.png');
+>>>>>>> Commit admin functions
+}
+
+.estados option {
+    text-align: center;
+}
+
+/* Select Group */
+.boat_select {
+    margin-top: 30px;
+}
+
+.boat_select h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    color: #1B3F53;
+}
+
+.boat_radio input[type="radio"] {
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+}
+
+.boat_radio input[type="radio"]:checked+img{
+    -webkit-filter: brightness(0.3);
+    -moz-filter: brightness(0.3);
+    -o-filter: brightness(0.3);
+    filter: brightness(0.3);
+}
+
+.boat_radio img {
+    cursor: pointer;
+}
+
+.boat_radio img:hover {
+    -webkit-transition: all 100ms ease-in;
+    -moz-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+
+    -webkit-filter: brightness(0.3);
+    -moz-filter: brightness(0.3);
+    -o-filter: brightness(0.3);
+    filter: brightness(0.3);
+}
+
+/* Messages Error/Success */
+.message_insert {
+    list-style: none;
+}
+
+.message_insert img {
+    width: 20px;
+}
+
+/* Send BTN */
+.send_btn {
+    text-align: center;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin: auto;
+    border: none;
+    background-color: #F7A60B;
+    padding: 5px 45px 5px 45px;
+    margin: 45px;
+}
+
+.send_btn_loading {
+    display: none;
+    margin: 45px;
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .header {
+        margin-top: 10px;
+    }
+
+    .header_description {
+        display: none;
+    }
+
+    .estados {
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+    }
+
+    .select_quest input[type="text"] {
+        width: 100%;
+        float: none;
+    }
+
+    .select_quest {
+        font-size: 2em;
+    }
+}
+
+
+
+
